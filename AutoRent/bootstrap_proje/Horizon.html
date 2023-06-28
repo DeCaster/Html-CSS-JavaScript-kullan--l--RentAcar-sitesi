@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autoroad</title>
+    <<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="jqueryui/jquery-ui.css">
+    <link rel="stylesheet" href="HrzCss.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+  <!--bolum1 başlangıc-->
+<section class="container-fluid bolum1">
+  
+	<div class="overlay"></div>
+  <div class="container"> 
+    <!--		navigasyon Başlangıc-->
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <a class="navbar-brand" href="#"> <span class="text-warning">AUTO</span> <span class="text-white">ROAD</span> </a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
+          <li class="nav-item"> <a class="nav-link " href="#">Pricing</a> </li>
+          <li class="nav-item"> <a class="nav-link " href="#">Our Car</a> </li>
+          <li class="nav-item"> <a class="nav-link " href="#">Blog</a> </li>
+          <li class="nav-item"> <a class="nav-link " href="#">Contact</a> </li>
+        </ul>
+      </div>
+    </nav>
+    <!--		navigasyon bitiş-->
+    
+    <div class="row">
+      <div class="col-md-6 text-white p-0 py-4">
+        <h2 class="display-4">Now<br>
+          It's easy for you rent a car</h2>
+        <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts</p>
+      </div>
+      <div class="col-md-4 offset-md-2 bg-white sagicerik">
+        <form action="" class="form-header">
+          <h3>Make your trip</h3>
+          <div class="form-group">
+            <label for="">PICK-UP LOCATION</label>
+            <input type="text" class="form-control" placeholder="City, Airport, Station, etc">
+          </div>
+          <div class="d-flex">
+            <div class="form-group mr-2 flex-grow-1">
+              <label for="">PICK-UP DATE</label>
+              <input type="text" class="form-control" id="book_pick_date" placeholder="Date">
+            </div>
+            <div class="form-group ml-2 flex-grow-1">
+              <label for="">DROP-OFF DATE</label>
+              <input type="text" class="form-control" id="book_off_date" placeholder="Date">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="">PICK-UP TIME</label>
+            <input type="text" class="form-control" id="tarih3">
+          </div>
+          <div class="form-group">
+            <input type="submit" class="btn btn-primary w-100" value="Search Vehicle">
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!--Bölüm1 Sonu-->
+
+<!--bölüm2 Başlangıç-->
+    <section class="container bolum2">
+  <form action="">
+    <div class="row">
+      <div class="col-lg">
+        <div class="form-group">
+          <label for="" >Model select</label>
+          <select name="model" id="" class="form-control">
+            <option value="1">Model 1</option>
+            <option value="2">Model 2</option>
+            <option value="3">Model 3</option>
+            <option value="4">Model 4</option>
+          </select>
+        </div>
+      </div>
+      <div class="col-lg"><div class="form-group">
+        <label for="" >Select Brand</label>
+        <select name="brand" id="" class="form-control">
+          <option value="1">Brand 1</option>
+          <option value="2">Brand 2</option>
+          <option value="3">Brand 3</option>
+          <option value="4">Brand 4</option>
+        </select>
+      </div>
+    </div>
+      <div class="col-lg">
+        <div class="form-group">
+        <label for="" >Year Model</label>
+        <select name="yModel" id="" class="form-control">
+          <option value="1" >Model 1</option>
+          <option value="2">Model 2</option>
+          <option value="3">Model 3</option>
+          <option value="4">Model 4</option>
+        </select>
+      </div>
+    </div>
+      <div class="col-lg"><div class="form-group">
+        <label for="" >Price Limit</label>
+        <select name="price" id="" class="form-control">
+          <option value="1">Model 1</option>
+          <option value="2">Model 2</option>
+          <option value="3">Model 3</option>
+          <option value="4">Model 4</option>
+        </select>
+      </div>
+    </div>
+      <div class="col-lg">
+        <div class="form-group">
+          
+          <input type="submit" class="form-control btn btn-primary" value="Search" >
+        </div>
+      </div>
+    </div>
+  </form>
+        </section>
+<!--Bölüm2 Sonu-->
+
+<!--Bölüm3 Baslnagic-->
+<section class="container bolum3">
+  <p>OUR SERVICES</p>
+  <h3>Our Services</h3>
+  <div class="row">
+    <div class="col-sm-6 col-lg-3 etiket">
+      <i class="fas fa-tools"></i>
+      <h4>24/7 Car Support</h4>
+      <p>Our support service is designed to keep you on the road, offering prompt solutions and reliable guidance at any hour.</p>
+
+    </div>
+    <div class="col-sm-6 col-lg-3 etiket">
+      <i class="fas fa-tools"></i>
+      <h4>Lots of Location</h4>
+      <p>We pride ourselves on having lots of locations conveniently located in major cities, making it easy for</p>
+    </div>
+    <div class="col-sm-6 col-lg-3 etiket">
+      <i class="fas fa-tools"></i>
+     <h4>Item Brand Model</h4>
+     <p>With its advanced technology and superior craftsmanship, the Item Brand model XYZ car sets new standards in the automotive industry.</p>
+    </div>
+    <div class="col-sm-6 col-lg-3 etiket">
+      <i class="fas fa-tools"></i>
+      <h4>Best Price Guarantee</h4>
+      <p>We are proud to offer our customers a best price guarantee, ensuring that you get the most competitive prices on all our products.</p>
+      
+    </div>
+  </div>
+</section>
+<!--Bölüm3 Sonu-->
+
+<!--Bölüm4 Baslnagic-->
+<section class="container-fluid bolum4">
+  <p>WHAT WE OFFER</p>
+  <h3>Chose Your Car</h3>
+  <div class="row p-4">
+    <div class="col-lg-3 col-md-6">
+      <div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-1.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$130000</span>
+						<p class="from-day">
+							<span>From</span>
+							<span>/Day</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>Mercedes Grand Sedan</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Book Now</button>
+					<button class="btn">Details</button>
+				</div>
+			</div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-2.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$32220</span>
+						<p class="from-day">
+							<span>From</span>
+							<span>/Day</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>Range Rover</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Book Now</button>
+					<button class="btn">Details</button>
+				</div>
+			</div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-4.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$78030</span>
+						<p class="from-day">
+							<span>From</span>
+							<span>/Day</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>Mustang</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Book Now</button>
+					<button class="btn">Details</button>
+				</div>
+			</div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-5.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$123330</span>
+						<p class="from-day">
+							<span>From</span>
+							<span>/Day</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>BMW X3</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Book Now</button>
+					<button class="btn">Details</button>
+				</div>
+			</div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-11.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$45000</span>
+						<p class="from-day">
+							<span>From</span>
+							<span>/Day</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>Mercedes Sedan</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Book Now</button>
+					<button class="btn">Details</button>
+				</div>
+			</div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-8.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$90330</span>
+						<p class="from-day">
+							<span>From</span>
+							<span>/Day</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>Rubicon</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Book Now</button>
+					<button class="btn">Details</button>
+				</div>
+			</div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-7.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$98210</span>
+						<p class="from-day">
+							<span>From</span>
+							<span>/Day</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>Mercedes Grand Sedan Grey
+        </h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Book Now</button>
+					<button class="btn">Details</button>
+				</div>
+			</div>
+    </div>
+    <div class="col-lg-3 col-md-6">
+      <div class="etiket">
+				<div class="img d-flex justify-content-start align-items-end" style="background: url('images/car-9.jpg')">
+					<div class="fiyat d-flex shadow">
+						<span  class="tutar">$70000</span>
+						<p class="from-day">
+							<span>From</span>
+							<span>/Day</span>
+						</p>
+					</div>
+				
+				</div>
+				<h5>Mercedes AMG</h5>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<div class="butonlar">
+					<button class="btn">Book Now</button>
+					<button class="btn">Details</button>
+				</div>
+			</div>
+    </div>
+  </div> 
+</section>
+<!--Bölüm4 Sonu-->
+
+<!--Bölüm5Baslnagic-->
+<section class="container-fluid bolum5" style="opacity: 1;">
+  <div class="overlay"></div>
+  <div class="container">
+    <p>WORK FLOW</p>
+    <h2>How it works</h2>
+    <div class="row s">
+      <div class="col-md-3 d-flex justify-content-center">
+        <div class="icerik">
+          <div class="resim"><i class="fas fa-route"></i></div>
+          <h3>Pick Destination</h3>
+          <p>A smal River named Duden flows by their place and supplies it with you</p>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex justify-content-center">
+        <div class="icerik">
+          <div class="resim"><i class="fas fa-route"></i></div>
+          <h3>Pick Destination</h3>
+          <p>A smal River named Duden flows by their place and supplies it with you</p>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex justify-content-center">
+        <div class="icerik">
+          <div class="resim"><i class="fas fa-route"></i></div>
+          <h3>Pick Destination</h3>
+          <p>A smal River named Duden flows by their place and supplies it with you</p>
+        </div>
+      </div>
+      <div class="col-md-3 d-flex justify-content-center">
+        <div class="icerik">
+          <div class="resim"><i class="fas fa-route"></i></div>
+          <h3>Pick Destination</h3>
+          <p>A smal River named Duden flows by their place and supplies it with you</p>
+        </div>
+      </div>
+    </div>
+  </div>
+   </section>
+   <!--Bölüm5 Sonu-->
+
+   <!--Bölüm6Baslnagic-->
+   <section class="container bolum6" style="opacity: 1;" >
+    <div class="container baslik">
+      <p>TESTIMONIAL</p>
+      <h2>Happy Clients</h2>
+    </div>
+    <div class="row">
+      <div class="col-md-4 mb-2">
+        <div class="card d-block p-3 shadow">
+          <img src="images/person_1.jpg" alt="">
+          <div class="card-body">
+            <p>I had a fantastic experience renting a car through your site. The booking process was smooth, the car was clean and well-maintained, and the customer service was exceptional.</p>
+            <h5>Roger Scott</h5>
+            <span>Marketing Manager</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-2">
+        <div class="card d-block p-3 shadow">
+          <img src="images/person_2.jpg" alt="">
+          <div class="card-body">
+            <p>Renting a car from your site was a breeze. The wide selection of vehicles, competitive prices, and convenient pick-up and drop-off locations made my trip a seamless and enjoyable experience.
+              </p>
+            <h5>David Mitchell</h5>
+            <span>Financial Analyst</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-2">
+        <div class="card d-block p-3 shadow">
+          <img src="images/person_3.jpeg" alt="">
+          <div class="card-body">
+            <p>I highly recommend your rent-a-car site. The user-friendly interface, transparent pricing, and excellent customer service made the entire process of renting a car quick and hassle-free.</p>
+            <h5>Benjamin Ramirez</h5>
+            <span>Software Engineer</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+   </section>
+   <!--Bölüm6 Sonu-->
+
+   <!--Bölüm7Baslnagic-->
+   <section class="container bolum7">
+    <div class="row">
+      <div class="col-md-6 resim" style="background: url('images/about.jpg')"></div>
+      <article class="col-md-6">
+        <div class="baslik">
+          <p>ABOUT US</p>
+          <h3>Choose A Perfect Car</h3>
+        </div>
+        <p class="icerik">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+        <p class="icerik">On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word "and" and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.</p>
+        <button class="btn">Search Vehicle</button>
+      </article>
+    </div>	
+  </section>
+   <!--Bölüm7 Sonu-->
+   <!--Bölüm8Baslnagic-->
+   <footer class="container-fluid" style="opacity: 1;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 p-3">
+          <h3>About Autoroad</h3>
+				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+				<ul class="sosyalmedya">
+					<li><a href=""><i class="fab fa-twitter"></i></a></li>
+					<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href=""><i class="fab fa-instagram"></i></a></li>
+				</ul>
+        </div>
+        <div class="col-md-3 p-3">
+          <h3>Information</h3>
+				<ul class="footerliste">
+					<li><a href="">About</a></li>
+					<li><a href="">Services</a></li>
+					<li><a href="">Term and Conditions</a></li>
+					<li><a href="">About Us</a></li>
+					<li><a href="">About Site</a></li>
+				</ul>
+        </div>
+        <div class="col-md-3 p-3">
+          <h3>Customer Support</h3>
+				<ul class="footerliste">
+					<li><a href="">About</a></li>
+					<li><a href="">Services</a></li>
+					<li><a href="">Term and Conditions</a></li>
+					<li><a href="">About Us</a></li>
+					<li><a href="">About Site</a></li>
+				</ul>
+        </div>
+        <div class="col-md-3 p-3">
+          <h3>Have a Questions?</h3>
+				<ul class="footerliste">
+	                <li><i class="fas fa-map-marker-alt"></i><p>203 Fake St. Mountain View, San Francisco, California, USA</p></li>
+	                <li><a href="#"><i class="fas fa-phone"></i><p>+2 392 3929 210</p></a></li>
+	                <li><a href="#"><i class="fas fa-envelope"></i><p>info@yourdomain.com</p></a></li>
+	              </ul>
+        </div>
+      </div>
+      <div class="row lisans justify-content-center">
+        Copyright C2023 All rights reserved|This templated is made with by Colorlib
+      </div>
+    </div>
+
+   
+  </footer>
+   <!--Bölüm8 Sonu-->
+    
+
+        <script src="bootstrap/js/jquery-3.4.1.min.js"></script> 
+        <script src="bootstrap/js/bootstrap.js"></script>
+        <script src="jqueryui/jquery-ui.js"></script>	
+        <script src="HrzJs.js"></script>
+    
+</body>
+</html>
